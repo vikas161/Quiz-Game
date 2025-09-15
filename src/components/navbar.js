@@ -8,19 +8,19 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-md">
+    <nav className="bg-white text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <Link href="/" className="text-5xl font-bold">
-            Quiz Game
+          <Link href="/" className="text-4xl font-bold text-black">
+            📚 Quiz Game
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-14 shadow-2xl">
-            <Link href="/" className="hover:text-gray-200 text-3xl font-bold">Home</Link>
-            <Link href="/quiz" className="hover:text-gray-200 text-3xl font-bold">PlayQuiz</Link>
-            <Link href="/about" className="hover:text-gray-200 text-3xl font-bold">About</Link>
+          <div className="hidden md:flex space-x-14 ">
+            <Link href="/" className="hover:text-gray-200 text-2xl  text-black">Home</Link>
+            <Link href="/quiz" className="hover:text-gray-200 text-2xl text-black">Playquiz</Link>
+            <Link href="/about" className="hover:text-gray-200 text-2xl  text-black">About</Link>
           </div>
 
           {/* Mobile Menu Button */}

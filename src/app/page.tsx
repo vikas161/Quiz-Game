@@ -7,8 +7,8 @@ export default function Home() {
     <div> 
             <Navbar />
 
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-      <h1 className="text-6xl font-bold mb-6 text-white">📚 Quiz Game Project</h1>
+    <main className="min-h-screen flex flex-col items-center  bg-white/98">
+      <h1 className="text-4xl font-bold mb-2 mt-20 text-black">📚 Quiz Game </h1>
 
       <Quiz />
     </main>

@@ -101,7 +101,7 @@ export default function Quiz() {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10 p-6 bg-white shadow-lg rounded-2xl text-center">
+    <div className="max-w-lg mx-auto mt-10 p-6 bg-white shadow-xl rounded-2xl text-center">
       {!quizStarted ? (
         <div>
           <h2 className="text-2xl font-bold mb-6 text-black">🎮 Start Quiz</h2>
