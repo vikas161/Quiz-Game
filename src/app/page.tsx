@@ -8,7 +8,7 @@ export default function Home() {
             <Navbar />
 
     <main className="min-h-screen flex flex-col items-center  bg-white/98">
-      <h1 className="text-4xl font-bold mb-2 mt-20 text-black">📚 Quiz Game </h1>
+      <h1 className="text-5xl  mb-2 mt-20 text-black">📚 Quiz Game </h1>
 
       <Quiz />
     </main>
